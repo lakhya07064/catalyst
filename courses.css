@@ -1,0 +1,12 @@
+
+
+
+
+
+/*Phone*/
+
+@media screen and (max-width: 600px){
+    .courses_container{
+        margin-top: 8rem;
+    }
+}

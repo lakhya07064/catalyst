@@ -1,0 +1,79 @@
+#cityall{
+    width: 100%;
+}
+
+.allcourses_container , .mca_colleges{
+    background: var(--color-primary);
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+h2{
+    padding-top: 3rem;
+    padding-bottom: 0px;
+    
+}
+
+.menu a li{
+    padding-left: 3rem;
+    font-size: 1.4rem;
+    color: blue;
+    font-weight: bold;
+}
+
+.menu{
+    background: var(--color-white);
+}
+
+.menu p{
+    color: black;
+    padding-left: 3rem;
+    font-size: 1rem;
+}
+
+#para{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+/*Tablet*/
+@media screen and (max-width: 1024px){
+    .menu a li{
+        padding-left: 1rem;
+        font-size: 1.2rem;
+        color: blue;
+        font-weight: bold;
+    }
+    #para{
+        font-size: 15PX;
+        padding-right: 20px;
+    }
+}
+
+
+
+
+
+
+/* Phone*/
+
+
+@media screen and (max-width: 600px){
+
+    .menu a li{
+        padding-left: 1rem;
+        font-size: 1.2rem;
+        color: blue;
+        font-weight: bold;
+        align-items: center;
+    }
+    .mca_colleges{
+        width: 90%;
+    }
+    
+}

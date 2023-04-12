@@ -1,0 +1,19 @@
+.categories_right{
+    margin-top: 5rem;
+}
+
+h2{
+    margin-top: 2rem;
+}
+
+
+/*Phone*/
+
+@media screen and (max-width: 600px){
+    h2{
+        font-size: 2rem;
+    }
+    .caterightname{
+        margin-left: 4rem;
+    }
+}
